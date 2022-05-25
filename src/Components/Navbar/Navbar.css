@@ -1,0 +1,65 @@
+.container{
+    height: 2px;
+
+}
+
+.wrapper{
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.left{
+/* For fixing the width exactly else I will need to enter width:33.3% which still wont be 100% equally fixed,*/
+    flex: 1;
+align-items: center;
+display: flex;
+margin-left: -100px;
+}
+.language{
+    font-size: 14;
+cursor: pointer;
+
+}
+.searchContainer{
+border: 1px solid lightgray;
+display: flex;
+align-items: center;
+margin-left: 12px;
+padding: 5px;
+width: 200px;
+justify-content: flex-end;
+}
+.input{
+    border:none
+}
+
+.center{
+flex: 1;
+}
+.logo{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 40px;
+margin-left: 140px;
+}
+
+
+
+.right{
+flex: 1;
+display: flex;
+align-items: center;
+
+margin-left: 50px;
+
+}
+
+.menuItem{
+     font-size: 14px;
+     cursor: pointer;
+     margin-left: 25px;
+     
+}
